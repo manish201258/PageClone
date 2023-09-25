@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+
+/* Banner CSS */
+.container{
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+height: 51px;
+background-color:#4dadf7;
+background-image: url(assets/asset\ 32.png);
+background-size: 300px;
+}
+.banner a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+/* Navegation CSS */
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 71px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+#navlogo{
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#navlogo #a1{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+   padding-right: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    color: #435b71;
+background-image: url(assets/asset\ 33.svg);
+background-position: center;
+background-repeat: no-repeat;
+}
+#navlogo img{
+    width: 168px;
+    height: 31px;
+}
+/* .container1 img{
+    width: 168px;
+    height: 31px;
+} */
+#navbar{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#navlink{
+    text-decoration: none;
+    font-family: "Averta PE", sans-serif;
+    color: #1e4e73;
+}
+#navlink:hover{
+    color: #4dadf7;
+}
+
+.buttona{
+    font-size: 20px;
+}
+#button1{
+    border: #4dadf7 solid 1px;
+    background-color: white;
+    border-radius: 4px;
+    width: 100px;
+    height: 46px;
+    color: #173b59;
+}
+#button2{
+    border: none;
+    border-radius: 4px;
+    width: 130px;
+    height: 46px;
+    background-color: #2294ed;
+    color: white;
+}
+#button1:hover{
+    border: solid #4dadf7 1.4px;
+}
+
+#button2:hover{
+background-color: #0061ad;
+}
+/* Main Section 1 CSS */
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:25px 50px 0px 50px ;
+
+
+}
+.container2 img{
+    width: 586px;
+    
+}
+.container2 .left{
+    width: 38%;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.container2 h2{
+    font-size: 48px;
+    color: #183b56;
+    font-family: 'Roboto', sans-serif;
+}
+.container2 #p1{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    color: #577592;
+    line-height:0.8cm;
+
+}
+.container2 button{
+    border: none;
+    border-radius: 4px;
+    width: 130px;
+    height: 46px;
+    background-color: #2294ed;
+    color: white;
+    width: 200px;
+    font-size: 20px;
+}
+.container2 button:hover{
+    background-color: #0061ad;
+}
+.container2 #p2{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:13px;
+    color: #577592;
+}
+.buttontag{
+    display: flex;
+    flex-direction: column;
+    width: 41%;
+}
+.buttontag #p2{
+    padding-top: 10px;
+    align-self: center;
+}
+
+/* Main Section 2 CSS */
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+.container3 p{
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.companylogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.companylogo #img1{
+    width:95px ;
+    height: 46px;
+}
+.companylogo #img2{
+    width:105px ;
+    height: 46px;
+}
+.companylogo #img3{
+    width: 170px;
+    height: 46px;
+}
+.companylogo #img4{
+    width:145px ;
+    height: 46px;
+}
+.companylogo #img5{
+    width:45px ;
+    height: 46px;
+}
+.companylogo #img6{
+    width:155px ;
+    height: 46px;
+}
+.companylogo #img7{
+    width:104px ;
+    height: 46px;
+}
+
+/* Main Section 3 CSS */
+
+.container4{
+    margin: 50px;
+    height: 650px;
+    background-image: url(assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:600px;
+    
+}
+.container4 .top1  h2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #183b56;
+
+}
+.container4 .top1{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.top1 button{
+    border: #4dadf7 solid 1px;
+    background-color: white;
+    border-radius: 4px;
+    width: 110px;
+    height: 38px;
+    color: #173b59;
+    margin-top: 10px;
+}
+
+
+.container4 #middledown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+.container4 img{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+#middledown button{
+    border: #4dadf7 solid 1px;
+    background-color: transparent;
+    border-radius: 4px;
+    width: 110px;
+    height: 38px;
+    color: #173b59;
+    margin-top: 15px;
+}
+
+.container4 .down{
+    margin: 20px;
+}
+
+#middledown h2{
+    font-size: 20px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #183b56;
+}
+#middledown p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #577592;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height:0.6cm;
+}
+#logos{
+    width: 60%;
+}
+#logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
